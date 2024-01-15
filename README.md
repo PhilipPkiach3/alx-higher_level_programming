@@ -2,7 +2,7 @@
 
 This repo contains all the projects that I have done in the alx-Holberton curriculum on Higher level programming.
 
-#What Does High-Level Language (HLL) Mean?
+# What Does High-Level Language (HLL) Mean?
 
 A high-level language is any programming language that enables development of a program in a much more user-friendly programming context and is generally independent of the computer's hardware architecture.
 
