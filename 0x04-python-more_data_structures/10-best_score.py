@@ -1,15 +1,16 @@
 #!/usr/bin/python3
 
 
-def search_replace(my_list, search, replace):
+def best_score(a_dictionary):
     """
-    A function that replaces all occurrences
-    of an element by another in a new list
+    A function that returns a key with the biggest integer value.
     """
-    new_list = []
-    for element in my_list:
-        if element == search:
-            new_list.append(replace)
-        else:
-            new_list.append(element)
-    return new_list
+    if a_dictionary:
+        my_list = list(a_dictionary.keys())
+        score = 0
+        leader = ""
+        for i in my_list:
+            if a_dictionary[i] > score:
+                score = a_dictionary[i]
+                leader = i
+        return leader
